@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DBNavigator.Project.DDLFileAttachmentManager">
+    <mappings />
+    <preferences />
+  </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -13,8 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="02daad62-5cea-44a7-9fb9-7ca6534fb7af">
-      <console name="Connection" type="STANDARD" schema="" session="Main" />
-      <console name="Connection 1" type="STANDARD" schema="mybatis" session="Main"><![CDATA[select * from tb_user]]></console>
+      <console name="Connection" type="STANDARD" schema="mybatis" session="Main"><![CDATA[select * from tb_brand]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -26,9 +29,27 @@
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="02daad62-5cea-44a7-9fb9-7ca6534fb7af" />
   </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="02daad62-5cea-44a7-9fb9-7ca6534fb7af" dataset="mybatis.tb_brand" active-filter-id="EMPTY_FILTER">
+      <filter id="1134bf67-a4ba-4e8e-8d43-41bbf1a95b34" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="02daad62-5cea-44a7-9fb9-7ca6534fb7af" dataset="db1.tb_brand" active-filter-id="EMPTY_FILTER">
+      <filter id="899aab24-b57c-45ae-a2b7-10fa717415d6" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
+  </component>
+  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+    <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
@@ -93,6 +114,7 @@
           <tcp-host-address value="" />
           <tcp-port-from value="4000" />
           <tcp-port-to value="4999" />
+          <debugger-type value="ASK" />
         </debugger>
         <object-filters hide-empty-schemas="false" hide-pseudo-columns="false" hide-audit-columns="false">
           <object-type-filter>
@@ -474,9 +496,6 @@
         <compile-dependencies value="ASK" />
         <always-show-controls value="false" />
       </compiler>
-      <debugger>
-        <debugger-type value="ASK" />
-      </debugger>
     </operation-settings>
     <ddl-file-settings>
       <extensions>
