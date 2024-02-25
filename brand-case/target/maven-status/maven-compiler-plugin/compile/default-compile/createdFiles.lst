@@ -1,0 +1,11 @@
+com\chris\web\servlet\AddServlet.class
+com\chris\pojo\Brand.class
+com\chris\service\impl\BrandServiceImpl.class
+com\chris\web\servlet\BaseServlet.class
+com\chris\web\servlet\SelectAllServlet.class
+com\chris\service\BrandService.class
+com\chris\web\servlet\BrandServlet.class
+com\chris\mapper\BrandMapper.class
+com\chris\web\servlet\UserServlet.class
+com\chris\util\SqlSessionFactoryUtils.class
+com\chris\pojo\PageBean.class
